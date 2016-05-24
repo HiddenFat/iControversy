@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://fiddle.jshell.net/_display/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="./dummy.js"></script>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+  
+
+  
+
+  <style type="text/css">
+    
+  </style>
+
+  <title>iControvercy</title>
+
+  
+    
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+window.onload=function(){
+canvas = document.getElementById('iControvercy');
+context = canvas.getContext('2d');
+
+var title = "iControvercy"
+
+var binary = new Array();
+binary.push('0');
+binary.push('1');
+binary.push('10');
+binary.push('11');
+binary.push('100');
+binary.push('101');
+binary.push('110');
+binary.push('111');
+binary.push('1000');
+binary.push('1001');
+binary.push('empty');
+
+var binscr = new Array();
+
+var bintonum = new Array();
+bintonum.push('0');
+bintonum.push('1');
+bintonum.push('2');
+bintonum.push('3');
+bintonum.push('4');
+bintonum.push('5');
+bintonum.push('6');
+bintonum.push('7');
+bintonum.push('8');
+bintonum.push('9');
+
+function drawgame(){
+canvas.width = canvas.width;
+context.fillStyle = 'maroon';
+context.fillRect(0, 0, canvas.width, canvas.height);
+context.fill();
+context.fillStyle = 'black';
+context.font = "30px Verdana"
+context.fillText(title, (canvas.width/2)-100, 100);
+//square 1
+context.fillStyle = 'white';
+context.fillRect(20, 400, 300,300);
+context.fillStyle = 'black';
+context.fillRect(25, 405, 290,290);
+//square 2
+context.fillStyle = 'white';
+context.fillRect(340, 400, 300,300);
+context.fillStyle = 'black';
+context.fillRect(345, 405, 290,290);
+//square 3
+context.fillStyle = 'white';
+context.fillRect(20, 400, 300,300);
+context.fillStyle = 'black';
+context.fillRect(25, 405, 290,290);
+//square 4
+context.fillStyle = 'white';
+context.fillRect(20, 400, 300,300);
+context.fillStyle = 'black';
+context.fillRect(25, 405, 290,290);
+
+}
+
+function update(){
+
+}
+
+function draw(){
+drawgame();
+}
+
+function gameloop(){
+	update();
+  draw();
+}
+
+setInterval(gameloop,30);
+
+}//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  <canvas id="iControvercy" width="1500" height="800">
+</canvas>
+
+  
+
+
+
+
+</body></html>
