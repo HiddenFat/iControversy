@@ -7,4 +7,3 @@ Kenta Cole
 
 Final Project 
 iControversy
-
